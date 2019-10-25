@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            android:text="name"/>
+    <TextView
+            android:id="@+id/tv_name_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            android:text="Madrigal"/>
+
+    <TextView
+            android:id="@+id/tv_race"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            android:text="race"/>
+    <TextView
+            android:id="@+id/tv_race_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            android:text="Elf"/>
+    <TextView
+            android:id="@+id/tv_stats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_margin="12dp"
+            android:text="stats"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/tv_wisdom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_margin="8dp"
+                android:text="wisdom: "/>
+        <TextView
+                android:id="@+id/tv_wisdom_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_margin="8dp"
+                android:text="16"/>
+
+        <TextView
+                android:id="@+id/tv_strength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_margin="8dp"
+                android:text="strength: "/>
+        <TextView
+                android:id="@+id/tv_strength_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_margin="8dp"
+                android:text="16"/>
+
+        <TextView
+                android:id="@+id/tv_dexterity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_margin="8dp"
+                android:text="dexterity: "/>
+        <TextView
+                android:id="@+id/tv_dexterity_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_margin="8dp"
+                android:text="16"/>
+
+    </LinearLayout>
+
+    <Button
+            android:id="@+id/btn_generate"
+            android:text="Generate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"/>
+
+</LinearLayout>
